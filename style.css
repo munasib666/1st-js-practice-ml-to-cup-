@@ -1,0 +1,25 @@
+body{
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:100vh;
+
+    max-width: max-content;
+    margin: auto;
+
+    text-align: center;
+   
+
+    background-color: antiquewhite;
+}
+h2{
+    color: rgb(100, 57, 5);
+}
+#ml{
+    font-size: 20px;
+}
+label{
+    color: rgb(202, 7, 7);
+    font-size: 20px;
+}
+#cup{
+    font-size: 23px;
+}

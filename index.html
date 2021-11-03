@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Converter</title>
+        <link rel="stylesheet" href="style.css">
+		<style>
+			span {
+				color: Green;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<h1 style="color: rgb(112, 8, 8); font-size:300%;">MiliLitter Converter</h1>
+		<p><h2>Enter a value in the MiliLitter field to convert</h2></p>
+<p>
+			<label>ml :</label>
+			<input id="ml"
+				type="number"
+				placeholder=""
+				oninput="kiloweightConvert(this.value)"
+				onchange="kiloweightConvert(this.value)" />
+		</p>
+
+		<!-- output field-->
+		
+<p> <span id="cup"></span></p>
+
+		<script src="index.js"></script>
+	</body>
+</html>
